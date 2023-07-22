@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/second.css">
+</head>
+
+<body>
+    <header>
+        <div class="for_background"></div>
+        <div class="container">
+
+            <div class="logo"><img src="./images/logo.svg" alt=""></div>
+
+            <div class="section_one">
+                <div class="words">
+                    <h3>Reservations</h3>
+                    <p>We can’t wait to host you. If you have any special requirements please feel free to call on the
+                        phone number below.
+                        We’ll be happy to accommodate you.</p>
+                </div>
+
+                <form id="form">
+                    <div class="forms">
+                        <div class="form">
+                            <div class="fullName">
+                                <input type="text" name="Name" placeholder="Name" id="name">
+                            </div>
+                            <div class="email">
+                                <input type="email" name="Email" placeholder="Email" id="email">
+                            </div>
+                            <div class="pickDate">
+                                <div class="pick_date">Pick a date</div>
+                                <select name="Month" id="month">
+                                    <option value="0">MM</option>
+                                </select>
+                                <select name="Day" id="day">
+                                    <option value="0">DD</option>
+                                </select>
+                                <select name="Year" id="year">
+                                    <option value="0">YYYY</option>
+                                    <option value="1">2023</option>
+                                    <option value="2">2024</option>
+                                </select>
+                            </div>
+
+                            <div class="pickTime">
+                                <div class="pick_date">Pick a time</div>
+                                <select name="Hours" id="hour"></select>
+                                <select name="Minutes" id="minute"></select>
+                                <select name="AMorPM" id="ap">
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
+                            </div>
+
+                            <div class="counter">
+                                <div class="minus"><img src="./images/icon-minus.svg" alt=""></div>
+                                <div class="count">
+                                    <span class="count_num">1</span>
+                                    <span>count</span>
+                                </div>
+                                <div class="plus"><img src="./images/icon-plus.svg" alt=""></div>
+                            </div>
+
+                            <button class="button" type="submit">MAKE RESERVATION
+                        </div>
+                    </div>
+            </div>
+            </form>
+
+
+        </div>
+        </div>
+        <div class="forBackground">
+            <img src="./images/pattern-lines.svg" alt="">
+        </div>
+    </header>
+
+
+    <footer class="footer">
+        <div class="logo"><img src="./images/logo.svg" alt=""></div>
+
+        <div class="footer_text">
+            <div class="address">Marthwaite, Sedbergh
+                <p>Cumbria</p>
+                <p>+00 44 123 4567</p>
+            </div>
+            <div class="openTime">
+                <p>OPEN TIMES</p>
+                <p>MON - FRI: 09:00 AM - 10:00 PM</p>
+                <p>SAT - SUN: 09:00 AM - 11:30 PM</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./second.js"></script>
+</body>
+
+</html>
